@@ -49,7 +49,7 @@
     <dependency>
       <groupId>org.apache.felix</groupId>
       <artifactId>org.apache.felix.gogo.runtime</artifactId>
-      <version>0.10.0</version>
+      <version>0.16.3-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.apache.felix</groupId>
@@ -81,7 +81,7 @@
             <Bundle-SymbolicName>${artifactId}</Bundle-SymbolicName>
             <Private-Package>${pom.artifactId}</Private-Package>
             <Bundle-Activator>${pom.artifactId}.Activator</Bundle-Activator>
-            <Import-Package>org.apache.felix.service.command; status="provisional", org.osgi.framework; version="[1.5,2.0)", org.osgi.framework.wiring; resolution:=optional, *</Import-Package>
+            <Import-Package>org.apache.felix.service.command, org.osgi.framework; version="[1.5,2.0)", org.osgi.framework.wiring; resolution:=optional, *</Import-Package>
             <Include-Resource>{maven-resources},META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE,META-INF/DEPENDENCIES=DEPENDENCIES</Include-Resource>
             <DynamicImport-Package>org.apache.felix.bundlerepository, org.apache.felix.bundlerepository.*</DynamicImport-Package>
           </instructions>

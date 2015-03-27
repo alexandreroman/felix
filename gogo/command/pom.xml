@@ -28,7 +28,7 @@
 
   <artifactId>org.apache.felix.gogo.command</artifactId>
   <packaging>bundle</packaging>
-  <version>0.15.0.aro-SNAPSHOT</version>
+  <version>0.15.0.aro</version>
   <name>Apache Felix Gogo Command</name>
 
   <description>

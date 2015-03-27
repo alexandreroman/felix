@@ -27,7 +27,7 @@
     <packaging>bundle</packaging>
     <name>Apache Felix Gogo Shell</name>
     <artifactId>org.apache.felix.gogo.shell</artifactId>
-    <version>0.11.0.aro-SNAPSHOT</version>
+    <version>0.11.0.aro</version>
     <dependencies>
         <dependency>
             <groupId>org.osgi</groupId>
